@@ -1,1 +1,1 @@
-[[Homepage](https://hjynwa.github.io)] of Jin HAN
+[Homepage](https://hjynwa.github.io) of Jin HAN
