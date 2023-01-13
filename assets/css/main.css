@@ -15,19 +15,19 @@ body{
 
 li {list-style-type:disc;}  
 .media_22{
-	border-left: 6px #03548d solid;
+	border-left: 6px #561db2 solid;
 }
 .media_21{
-	border-left: 6px #b709a5 solid;
+	border-left: 6px #900d64 solid;
 }
 .media_20{
 	border-left: 6px #b71717 solid;
 }
 .media_reviewer_conf{
-border-left: 6px #0baf37 solid;
+border-left: 6px #787780 solid;
 }
 .media_reviewer_journal{
-	border-left: 6px #dbc609 solid;
+	border-left: 6px #787780 solid;
 }
 
 .media-body{
