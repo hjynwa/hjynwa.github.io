@@ -14,6 +14,9 @@ body{
 .abstract-text { color: #606060; }
 
 li {list-style-type:disc;}  
+.media_25{
+	border-left: 6px #079ec8 solid;
+}
 .media_24{
 	border-left: 6px #1543a5 solid;
 }
@@ -78,4 +81,42 @@ border-left: 6px #787780 solid;
 .introduction{
 	float:right;
 	width:80%;
+}
+
+.gradient-text {
+    color: transparent;
+    background: -webkit-linear-gradient(30deg, #6d9f02 25%, #cbb724 50%, #cb4c07 75%, #d32a00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: auto;
+}
+
+a.rainbow {
+    text-decoration: underline;
+    color: #2d7788;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: inherit; /* 让超链接继承渐变色 */
+}
+
+a.rainbow:hover {
+    text-decoration: underline;
+    background-image: none; /* 取消背景渐变 */
+    -webkit-background-clip: unset; /* 取消渐变剪裁 */
+    -webkit-text-fill-color: #1a454f; /* 让颜色回归正常可见 */
+    color: #1a454f; /* 确保颜色能正常变化 */
+}
+a.rainbow:focus {
+	text-decoration: none;
+  }
+
+@keyframes gradientText {
+	0% {
+		background-position: 0;
+	}
+
+	100% {
+		background-position: 24000px;
+	} 
 }
